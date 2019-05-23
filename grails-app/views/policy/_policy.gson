@@ -1,0 +1,7 @@
+import policy.api.Policy
+
+model {
+	Policy policy
+}
+
+json g.render(policy, [resolveTemplate: false])

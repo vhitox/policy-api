@@ -1,0 +1,7 @@
+import policy.api.Policy
+
+model {
+	Policy policy
+}
+
+json tmpl.policy(policy)

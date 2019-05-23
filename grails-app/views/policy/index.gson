@@ -1,0 +1,8 @@
+import policy.api.Policy
+
+model {
+	Iterable<Policy> policyList
+}
+
+json tmpl.policy(policyList ?: [])
+
